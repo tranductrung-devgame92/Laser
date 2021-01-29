@@ -5,4 +5,4 @@ Toàn bộ file được build mặc định trên Unity, có thể tải về v
 * Các thành phần chính để tạo ra game nằm trong folder Asset:
   - Prefabs: nơi chứa các gameobject đã được tùy chỉnh các thành phần như rigidbody2d, collider,...
   - Script: các tập lệnh tạo hành vi cho gameobject
-  - Wave: chứa các file quy định quỹ đạo di chuyển cho gameobject
+  - Waves: chứa các file quy định quỹ đạo di chuyển cho gameobject
