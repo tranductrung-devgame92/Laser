@@ -4,14 +4,14 @@ using UnityEngine;
 
 public class Enemy : MonoBehaviour
 {
-    //Khởi tạo giá trị health
-    [SerializeField] float health = 100;
+    
+    [SerializeField] float health = 100;//Khởi tạo giá trị health
     [SerializeField] float shotCounter;
     [SerializeField] float minTimeBetweenShots = 0.2f;
     [SerializeField] float maxTimeBetweenShots = 3f;
     [SerializeField] GameObject projectile;
     [SerializeField] float projectileSpeed;
-    // Start is called before the first frame update
+    // Khởi đầu cho ngẫu nhiên thời gian giữa mỗi lần nhả đạn
     void Start()
     {
         shotCounter = Random.Range(minTimeBetweenShots, maxTimeBetweenShots);   
